@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #6d2929; /* Deep reddish-brown text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #6d2929; /* Deep reddish-brown for the container */
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    border: 2px solid #ffffff; /* White border */
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffffff; /* White for headings */
+    margin-bottom: 30px;
+}
+
+.content-box {
+    margin-bottom: 25px;
+    color: #ffffff; /* White text for content */
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 12px;
+    background-color: #ffffff; /* White background for inputs */
+    color: #6d2929; /* Deep reddish-brown text for inputs */
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #b38181; /* Light reddish-brown border on focus */
+    background-color: #f5e6e6; /* Very light reddish background on focus */
+    outline: none;
+}
+
+button {
+    padding: 15px 35px;
+    background-color: #ffffff; /* White buttons */
+    color: #6d2929; /* Deep reddish-brown text */
+    font-size: 18px;
+    border: 2px solid #6d2929; /* Border matches the text color */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #6d2929; /* Deep reddish-brown on hover */
+    color: #ffffff; /* White text on hover */
+    transform: translateY(-4px); /* Slight lift on hover */
+    border: 2px solid white;
+}
+
+#transaction-result {
+    margin-top: 30px;
+    color: #6d2929; /* Deep reddish-brown text */
+}
+
+#account-options, #transaction-result, #back-button {
+    display: none;
+}
